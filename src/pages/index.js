@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
-
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic01 from '../assets/images/pic01.jpg';
+import pic02 from '../assets/images/pic02.jpg';
+import pic03 from '../assets/images/pic03.jpg';
+import Design from '../assets/images/Design.jpg';
 
 class Homepage extends React.Component {
     render() {
@@ -21,10 +20,10 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Who We Are:</h2>
                             </header>
-                            <p></p>
+                            <p>Mignon is a boutique digital marketing consultancy specializing in Facebook, Instagram, Twitter and Google AdWords. We are here to create beautiful content for your social media to increase your profits, and run ad campaigns to attract sales and new customers. Take your brand to the next level with Mignon.</p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                            <span className="image fit"><img src={Design} alt="" /></span>
                         </div>
                     </div>
                 </section>
@@ -33,8 +32,6 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
                                 <li><span className="icon style3 major fa-camera-retro"></span></li>
                                 <li><span className="icon style4 major fa-cog"></span></li>
                                 <li><span className="icon style5 major fa-desktop"></span></li>
@@ -45,9 +42,9 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Our Services:</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+                            <p>At Mignon we project your brands image across multiple social media platforms such as Facebook, Instagram, and Twitter. We create content that reflect your values while attracting potential customers. This crafted content will be posted at specific times to create the most engagement from your following.</p>
+                            <p>
+Mignon can increase your following organically and through managing paid advertisements. Paid advertising is possible and effective at any budget with Mignon. Not only can you advertise on your own social media platforms, but you can use Google to have your advertisement appear all over the Internet.</p>
                         </div>
                     </div>
                 </section>
